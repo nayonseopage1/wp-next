@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.menuArea ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.menuArea{
+  background: cadetblue;
+}
+.menuArea ul li{
+  list-style: none;
+  color: #fff;
+}
+.banner-sec{
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+}
+.service-main-section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.service-content-area{
+    display: flex;
+    text-align: center;
+}
+.service-title{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.service-main-area h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.footer-section{
+  background: cadetblue;
+  color: white;
+  text-align: center;
+  padding: 40px 20%;
+  margin-top: 60px;
+  }
+.help-page-area{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

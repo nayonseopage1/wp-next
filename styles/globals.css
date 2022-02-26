@@ -59,3 +59,12 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.contact-form{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 60%;
+  margin: auto;
+}
+.contact-form submit{
+  margin-top: 20px;
+}

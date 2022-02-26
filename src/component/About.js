@@ -12,6 +12,7 @@ const About = ({hmOutput}) => {
                 <img src={hmOutput.bannerHome.bannnerImage.sourceUrl} />
             </div>
         </div>
+        
     );
 };
 

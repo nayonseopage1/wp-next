@@ -17,6 +17,7 @@ import { client } from "./apploClient";
                             }
                         }
                         serviceSec {
+                            id
                             serviceTitle
                             serviceContent
                             serviceImage {

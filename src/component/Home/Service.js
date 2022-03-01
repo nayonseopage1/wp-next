@@ -1,7 +1,9 @@
 import React from 'react';
+import Link from 'next/link'
+
 
 const Service = ({hmOutput}) => {
-  
+ 
     const serviceLoop = hmOutput.serviceSec;
     return (
 
@@ -17,6 +19,9 @@ const Service = ({hmOutput}) => {
                             <img src={serviceItem.serviceImage.sourceUrl} />
                             <h3>{serviceItem.serviceTitle}</h3>
                             <p>{serviceItem.serviceContent}</p>
+                            <Link href={'/services/' + serviceItem.id}>
+                              <a>Read More</a>
+                          </Link> 
                         </div>
                     )
                 })

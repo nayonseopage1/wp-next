@@ -31,8 +31,12 @@ export async function getServerSideProps(context) {
         headerMenu : await getNavData(),
         homeOutput : await homeData(),
         footerOutput : await footerData()
+
       }
     }
   }
+
+
+ 
 
 export default ServiceDetail;

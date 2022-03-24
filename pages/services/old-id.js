@@ -8,17 +8,17 @@ import getNavData from '../../src/inc/getNavData';
 import homeData from '../../src/inc/homeData';
 
 
-const ServiceDetail = ({headerMenu,footerOutput,homeOutput}) => {
+const ServiceDetail = ({headerMenu,footerOutput}) => {
    
     const router = useRouter();
     const { id } = router.query;
-    const serOutput = homeOutput.data.HomePage.aboutSection.bannerHome.serviceSec;
-    console.log(serOutput);
+    
+
     return (
         <Layout headerMenu={headerMenu}>
             <div className='service-Item'>
-                <h3>{serOutput.serviceTitle}</h3>
-                <p>{serOutput.serviceContent}</p>
+              <h2>service page detail</h2>
+                <h1>Url : { id}</h1> 
             </div>
             <Footer footerOutput={footerOutput} ></Footer>
         </Layout>

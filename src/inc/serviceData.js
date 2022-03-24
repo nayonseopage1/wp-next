@@ -19,9 +19,7 @@ import { client } from "./apploClient";
                         }
                     }
                     }
-                }
-                
-                        
+                }               
         `
         })
         return ServicePageData;

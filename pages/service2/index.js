@@ -9,8 +9,6 @@ import Layout from '../../src/component/Layout';
 import Footer from '../../src/component/Footer';
 import Link from 'next/link';
 
-
-
 const services2 = ({data,headerMenu,footerOutput}) => {
     
     const serviceLoop = data.ServicePageQuery.servicePage.serviceRep;
